@@ -1,7 +1,14 @@
+@import "react-big-calendar/lib/css/react-big-calendar.css";
+/* @import "react-big-calendar/lib/sass/dnd"; */
+/* @import "./rbc.css"; */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+.rbc-selected {
+  background-color: unset !important;
+}
+/* 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,4 +31,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */

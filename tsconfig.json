@@ -17,6 +17,12 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "index.d.ts",
+    "../fe-onboarding-server/react-big-calendar.ts"
+  ],
   "exclude": ["node_modules"]
 }
